@@ -36,7 +36,7 @@ function BmiCalculatorBySa(){
       }
       // take the Number of digits after the decimal point
       var BMIiResultRound = BMI.toFixed(2);
-   
+      // Show the Calculation Result in the HTML Result Elements 
       document.getElementById('result').innerHTML=BMIiResultRound;
 
       // give comment to user from BMI result by Changing the BG color of box 
