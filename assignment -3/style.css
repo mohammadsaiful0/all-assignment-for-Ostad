@@ -1,0 +1,67 @@
+body{
+    background-color: #171C2A !important;
+    color: #fff !important;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+.digital-clock-sa{
+    background-color: #FB2576;
+    width: 900px;
+    max-width: 800;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle !important;
+    
+}
+h3 {
+    display: inline-block;
+    font-size: 120px;
+    font-weight: bold;
+    
+}
+ul{
+  list-style: none;
+  
+}
+
+ul li{
+    display: inline;
+    margin: 0px 5px;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+    .digital-clock-sa{
+        width: 90% !important;
+        max-width: 500px !important;
+    }
+    h3{
+        font-size: 60px;
+    }
+    ul li { font-size: 40px;
+    }
+
+}
+@media screen and (max-width: 500px){
+    .digital-clock-sa{
+        width: 80% !important;
+        max-width: 100% !important;
+    }
+    h3{
+        font-size: 30px !important;
+    }
+    ul li { 
+        font-size: 18px !important;
+        margin: 0px 2px !important;
+
+    }
+}
