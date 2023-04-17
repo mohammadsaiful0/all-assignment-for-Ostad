@@ -8,6 +8,7 @@ function digitalClock(){
     let dayName = dayNames[todayDate.getDay()];
     let monthName = monthNames[todayDate.getMonth()];
     let year = todayDate.getFullYear();
+    let dayNumber=todayDate.getDate();
 
 
     // Format the time into hours, minutes, and seconds
@@ -38,6 +39,7 @@ function digitalClock(){
     document.getElementById("dayName").innerHTML= dayName + ",";
     document.getElementById("MonthName").innerHTML= monthName + "";
     document.getElementById("Year").innerHTML= year;  
+    document.getElementById("dayNumber").innerHTML= dayNumber;  
     
 }
 //run the function
