@@ -1,0 +1,21 @@
+/* Home page style */
+
+.card img{
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 2/1 !important;
+    text-align: center !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 404 page style */
