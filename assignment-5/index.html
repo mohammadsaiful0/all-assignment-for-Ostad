@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Book Collection</h1>
+    <form id="add-book-form">
+      <label for="Title">Title:</label>
+      <input type="text" name="title" required>
+      <br>
+      <label for="Author">Author:</label>
+      <input type="text" name="author" required>
+      <br>
+      <label for="publishedDate">Published Date:</label>
+      <input type="date" name="publishedDate">
+      <br>
+      <!-- <label for="Bookcover"> Upload Book Cover</label>
+      <input type="file" id="bookCoverImage">
+      <br> -->
+      <button type="submit">Add Book</button>
+    </form>
+    <h2>All Books</h2>
+    <ul id="book-list"></ul>
+    <script src="./script.js"></script>
+</body>
+</html>

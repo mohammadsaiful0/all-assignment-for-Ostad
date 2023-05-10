@@ -1,0 +1,102 @@
+/* Set font styles for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  /* Style for the Book Collection heading */
+  h1 {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 32px;
+    color: #333;
+  }
+  
+  /* Style for the Add Book form */
+  #add-book-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="date"] {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  input[type="text"]:focus,
+  input[type="date"]:focus {
+    border-color: #0066cc;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    margin: 10px auto;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0066cc;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #004c99;
+  }
+  
+  /* Style for the All Books heading */
+  h2 {
+    margin: 30px 0 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Style for the book list */
+  #book-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #book-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  #book-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .book-title {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .book-author {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .book-published-date {
+    font-size: 14px;
+    color: #555;
+  }
+  
